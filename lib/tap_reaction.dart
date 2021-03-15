@@ -64,7 +64,8 @@ class TapReaction extends StatefulWidget {
   _TapReactionState createState() => _TapReactionState();
 }
 
-class _TapReactionState extends State<TapReaction> with SingleTickerProviderStateMixin {
+class _TapReactionState extends State<TapReaction>
+    with SingleTickerProviderStateMixin {
   late final AnimationController _controller;
   late final Animation<double> _animation;
 
@@ -116,7 +117,8 @@ class _TapReactionState extends State<TapReaction> with SingleTickerProviderStat
       },
       onPointerMove: (event) {
         // Notify the rest of the widget that this is a scrolling motion.
-        if (event.delta.dy.abs() > _scrollTreshold || event.delta.dy.abs() > _scrollTreshold) {
+        if (event.delta.dy.abs() > _scrollTreshold ||
+            event.delta.dy.abs() > _scrollTreshold) {
           _isScroll = true;
         }
       },
