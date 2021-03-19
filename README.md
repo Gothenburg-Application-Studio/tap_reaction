@@ -13,7 +13,7 @@ widget is fully transparant and won't affect any other widgets that need to reci
 
 ### Example
 
-```
+```dart
 TapReaction.scale(
     endScale: 0.5,
     child: ElevatedButton(
