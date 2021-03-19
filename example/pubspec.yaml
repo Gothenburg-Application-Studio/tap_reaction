@@ -1,5 +1,5 @@
 name: example
-description: A new Flutter project.
+description: A flutter plugin made to simplify adding visual feedback when a button is pressed.
 
 publish_to: none
 
